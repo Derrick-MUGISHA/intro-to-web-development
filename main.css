@@ -25,6 +25,10 @@ li {
   list-style-type: none;
   margin: 0 12px;
 }
+li a {
+  cuarser: painter
+  
+}
 
 .hero {
   background-image: url('/images/hero.png');
@@ -45,6 +49,11 @@ button {
   color: white;
   border-radius: 10px;
 }
+
+.About {
+  itemAlign: center
+}
+
 
 .journey {
   background: #618379;
