@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Learn - Get Started Today</title>
   <meta name="description" content="Learn is a platform that offers free courses for everyone. Start learning today!" />
   <!-- CSS -->
@@ -13,12 +14,12 @@
   <!-- Navbar section -->
   <nav class="navbar">
     <div class="navbar-logo">
-      <img src="./images/logo.png" width="300" />
+      <img src="./images/logo.png" width="300" alt="Company Logo" />
     </div>
     <ul class="navbar-items">
-      <a href="#About">About Me</a>
-      <a href="#Journey">Journey</a>
-      <a href="#Goals">Goals</a>
+      <li><a href="#About">About Me</a></li>
+      <li><a href="#Journey">Journey</a></li>
+      <li><a href="#Goals">Goals</a></li>
     </ul>
   </nav>
   <!-- Hero section -->
@@ -28,27 +29,25 @@
       MUGISHA Derrick
     </h1>
     <p>A web developer</p>
-    <a href="mailto:mary@jane.com">
+    <a href="mailto:derrickmugisha169@gmail.com">
       <button>Contact Me</button>
     </a>
   </div>
-<!--   About me  -->
+  <!--   About me  -->
 
-  <div class ="About">
+  <div class="About" id="About">
     <h1>About me</h1>
-    <p>I am passionate web developer dedicated to creating engaging and user-friendly website. from the moment i started coding,i knew i wanres to build digital experience that peaple love to use. i thrive on turing creative ideas</p>
+    <p>I’m a passionate web developer dedicated to creating engaging and user-friendly websites. From the moment I
+      started coding, I knew I wanted to build digital experiences that people love to use. I thrive on turning creative
+      ideas into functional websites that make a difference.</p>
   </div>
   <!-- Coding journey section -->
   <div id="coding-journey" class="journey">
     <h2>Coding Journey</h2>
-  
-    <div class="journey-list">
+
+    <div class="journey-list" id="Journey">
       <div id="intro" class="journey-card">
-        <img
-          src="/images/intro-to-web.png"
-          class="journey-image"
-          alt="Course Image"
-        />
+        <img src="./images//intro-to-web.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>Intro To Web Development</h3>
           <p>
@@ -56,9 +55,9 @@
           </p>
         </div>
       </div>
-  
+
       <div id="react" class="journey-card">
-        <img src="/images/react.png" class="journey-image" alt="Course Image" />
+        <img src="./images/react.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>React Development</h3>
           <p>
@@ -66,9 +65,9 @@
           </p>
         </div>
       </div>
-  
+
       <div id="backend" class="journey-card">
-        <img src="/images/backend.png" class="journey-image" alt="Course Image" />
+        <img src="./images/backend.png" class="journey-image" alt="Course Image" />
         <div>
           <h3>Back-end Development</h3>
           <p>
@@ -78,10 +77,19 @@
       </div>
     </div>
   </div>
+  <!-- GOals -->
+  <div>
+    <h1 id="Goals">Goals</h1>
+    <p>I aspire to mentor and support other aspiring developers, sharing the knowledge and experience I’ve gained along
+      the way. By fostering a collaborative and encouraging environment, I hope to help others achieve their own goals
+      and grow in their careers. Building strong, supportive communities is important to me, as I believe we can achieve
+      more together.</p>
+  </div>
   <!-- Footer section -->
-<footer>
-  <p>Website Made With ❤️ From Kigali © <span id = "date"></span><p>
-</footer>
+  <footer>
+    <p>Website Made With ❤️ From Kigali © <span id="date"></span>
+    <p>
+  </footer>
   <script src="./script.js"></script>
 </body>
 
