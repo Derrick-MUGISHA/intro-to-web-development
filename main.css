@@ -25,16 +25,22 @@ li {
   list-style-type: none;
   margin: 0 12px;
 }
+
 li a {
-  cuarser: painter
-  
+  text-decoration: none;
+  color: #52647E;
+  font-weight: 500;
 }
 
 .hero {
-  background-image: url('/images/hero.png');
-  height: 500px;
+  background-image: url('./images/hero.png');
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 219px;
   padding-left: 103px;
+  color: white;
 }
 
 h1 {
@@ -51,9 +57,22 @@ button {
 }
 
 .About {
-  itemAlign: center
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
 }
 
+.About h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.About p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
 
 .journey {
   background: #618379;
@@ -94,6 +113,28 @@ h3 {
   margin-bottom: 12px;
   color: black;
 }
+
+/* Goals Section */
+div:nth-of-type(4) {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+div:nth-of-type(4) h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+div:nth-of-type(4) p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #555;
+}
+
 
 footer {
   background: #333232;
